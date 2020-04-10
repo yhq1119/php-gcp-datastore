@@ -29,6 +29,7 @@ class ComposerStaticInit16b0704f1278e905ef552357d790e581
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Cache\\' => 10,
+            'PhpOption\\' => 10,
         ),
         'M' => 
         array (
@@ -56,6 +57,10 @@ class ComposerStaticInit16b0704f1278e905ef552357d790e581
         array (
             'Firebase\\JWT\\' => 13,
         ),
+        'D' => 
+        array (
+            'Dotenv\\' => 7,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -78,6 +83,10 @@ class ComposerStaticInit16b0704f1278e905ef552357d790e581
         'Psr\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
+        'PhpOption\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
         ),
         'Monolog\\' => 
         array (
@@ -147,6 +156,10 @@ class ComposerStaticInit16b0704f1278e905ef552357d790e581
         'Firebase\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
+        ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
     );
 

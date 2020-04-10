@@ -2,6 +2,7 @@
     "name":"",
     "description": "",
     "require": {
-        "google/cloud-datastore": "^1.11"
+        "google/cloud-datastore": "^1.11",
+        "vlucas/phpdotenv": "^4.1"
      }
 }

@@ -1,0 +1,34 @@
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+
+    # Application static resources
+    
+    - url: /css
+      static_dir: css
+    
+    - url: /js
+      static_dir: js
+    
+    - url: /images
+      static_dir: images
+
+    - url: /
+      script: public/login.php
+
+    - url: /signup.php
+      script: public/signup.php
+
+    - url: /main.php
+      script: public/main.php
+
+    - url: /name.php
+      script: public/name.php
+
+    - url: /password.php
+      script: public/password.php
+
+    - url: /all
+      script: public/show_all.php

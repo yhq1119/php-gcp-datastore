@@ -1,0 +1,7 @@
+{
+    "name":"",
+    "description": "",
+    "require": {
+        "google/cloud-datastore": "^1.11"
+     }
+}
